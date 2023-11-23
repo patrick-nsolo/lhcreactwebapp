@@ -1,0 +1,11 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    padding:15px 95px;
+
+}
+.logo img{
+    width: 250px;
+    height: 70px;
+    align-items: center;
+}
