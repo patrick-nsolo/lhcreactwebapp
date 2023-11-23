@@ -1,18 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Leftnav from '../Leftnav/Leftnav';
 import './Home.css';
 
 const Home = () => {
+    const [isNavOpen, setIsNavOpen] = useState(false);
+    const handleToggleNav = () => {
+        setIsNavOpen(!isNavOpen);
+    };
   return (
     <div className='grey-bg'>
-      <Leftnav/>
+      <Leftnav isNavOpen={isNavOpen} handleToggleNav={handleToggleNav}/>
       <div className='hero-content-container'>
         <div className='main-nav'>
             <div className='logo'>
                 <img src='../images/lofty-logo.png' alt=''/>
             </div>
             <div className='navigation'>
-                <ul className='nav'>
+                <ul className={`nav ${isNavOpen ? 'open' : ''}`}>
                     <li className='nav-link'><a href='/'>About</a></li>
                     <li className='nav-link'><a href='/'>Clients</a></li>
                     <li className='nav-link'><a href='/'>Services</a></li>
