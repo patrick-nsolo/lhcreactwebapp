@@ -15,7 +15,9 @@ const Leftnav = () => {
             <div className='socials'>
                 <a href='/'><FontAwesomeIcon icon={faFacebook} className='social-icon'/></a>
                 <a href='/'><FontAwesomeIcon icon={faTwitter}  className='social-icon'/></a>
-                <a href='/'><FontAwesomeIcon icon={faInstagram} className='social-icon'/></a>  
+                <a href='https://www.instagram.com/loftyhealthcare/'>
+                  <FontAwesomeIcon icon={faInstagram} className='social-icon'/>
+                </a>  
                 <a href='/'><FontAwesomeIcon icon={faLinkedin} className='social-icon'/></a> 
             </div>
         </div>     
