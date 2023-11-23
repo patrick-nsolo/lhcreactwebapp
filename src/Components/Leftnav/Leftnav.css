@@ -30,3 +30,9 @@
     color: #20a0d8;
     font-size: 1.2rem;
 }
+
+@media (max-width:768px){
+    .socials{
+        margin-top: -300px;
+    }
+}
