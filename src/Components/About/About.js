@@ -1,6 +1,11 @@
 import React from 'react';
 import Nav from '../Nav/Nav';
 import './About.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faHandshake } from '@fortawesome/free-solid-svg-icons';
+
+
 
 const About = () => {
     
@@ -25,6 +30,20 @@ const About = () => {
             </div>
           </div>
           <hr/>
+          <div className='core-values'>
+            <h2>Our Core Values</h2>
+            <h3>3CR</h3>
+            <div className='values'>
+              <div className='collaboration'>
+                <FontAwesomeIcon icon={faHandshake} className='collab-icon'/>
+                <h4>Collaboration</h4>
+                <p>
+                  We promote a culture of teamwork, open communication, 
+                  and shared knowledge.
+                </p>
+              </div>  
+            </div>
+          </div>
         </div>
     </div>
   )
