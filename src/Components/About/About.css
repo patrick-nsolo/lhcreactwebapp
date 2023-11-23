@@ -1,0 +1,38 @@
+.about-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.about-image{
+    display: flex;
+    margin-left: 50px;
+}
+.about-image img{
+    height:450px;  
+}
+.about-text h2{
+    font-size: 2.5rem;
+    font-weight: 100;
+    animation: slideInLeft 2s ease-out;
+    color: #20a0d8;
+}
+.about-text p{
+    line-height: 25px;
+    font-size: 1.2rem;
+    width:80%;
+    animation: slideInLeft 2s ease-out;
+}
+
+@media (max-width:768px){
+    .about-hero{
+        flex-direction: column;
+        gap:0;
+    }
+    .about-image img{
+        height:270px;  
+    }
+    .about-text{
+        padding:20px;
+    }
+}
