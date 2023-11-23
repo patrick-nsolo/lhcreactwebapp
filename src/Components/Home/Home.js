@@ -13,15 +13,15 @@ const Home = () => {
       <div className='hero-content-container'>
         <div className='main-nav'>
             <div className='logo'>
-                <img src='../images/lofty-logo.png' alt=''/>
+                <a href='/'><img src='../images/lofty-logo.png' alt=''/></a>
             </div>
             <div className='navigation'>
                 <ul className={`nav ${isNavOpen ? 'open' : ''}`}>
-                    <li className='nav-link'><a href='/'>About</a></li>
-                    <li className='nav-link'><a href='/'>Clients</a></li>
-                    <li className='nav-link'><a href='/'>Services</a></li>
-                    <li className='nav-link'><a href='/'>Teams</a></li>
-                    <li className='nav-link'><a href='/'>Contact Us</a></li>
+                    <li className='nav-link'><a href='/about'>About</a></li>
+                    <li className='nav-link'><a href='/clients'>Clients</a></li>
+                    <li className='nav-link'><a href='/services'>Services</a></li>
+                    <li className='nav-link'><a href='/teams'>Teams</a></li>
+                    <li className='nav-link'><a href='/contact'>Contact Us</a></li>
                 </ul>
             </div>
         </div>
