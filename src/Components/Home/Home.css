@@ -129,6 +129,11 @@
     .nav.open{
         left:0;
     }
+    .nav li a:hover{
+        background-color: rgba(236, 235, 235, 0.8);
+        padding:10px 80px;
+        border-radius: 7px;
+    }
     .hero-content{
         flex-direction: column;
         padding:20;
