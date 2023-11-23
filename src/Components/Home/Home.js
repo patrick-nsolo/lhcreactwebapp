@@ -26,13 +26,13 @@ const Home = () => {
                 <h2>YOUR STAFFING SOLUTIONS</h2>
                 <h3>OUR PRIORITY</h3>
                 <p>
-                    Your reliable partner for temporary and permanent staffing solutions
-                    We provide professional and trained staff to the Health and Social care sector.
+                    We are your reliable partner for temporary and permanent staffing solutions.<br/>
+                    We provide professional and proficient staff to the Health and Social care sector.
                     Our recruits are highly skilled and the best within their various fields.
                 </p>
                 <div className='btns'>
-                    <a href='/'>Login</a>
-                    <a href='/'>Register</a>
+                    <a href='/' className='login'>Login</a>
+                    <a href='/' className='register'>Register</a>
                 </div>
             </div>
             <div className='hero-img'>
