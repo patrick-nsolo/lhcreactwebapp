@@ -14,13 +14,19 @@
 .hamburger{
     margin-bottom: auto;
     cursor: pointer;
+    color: #20a0d8;
+    font-size: 1.2rem;
 }
 .socials{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: -200px;
+    margin-top: -250px;
 }
-.social svg{
-    font-size: 1.4rem;
+.social-icon{
+    font-size: 1.5rem;
+}
+.socials a{
+    color: #20a0d8;
+    font-size: 1.2rem;
 }

@@ -13,10 +13,10 @@ const Leftnav = () => {
         </div>
         <div className='left-nav'>
             <div className='socials'>
-                <FontAwesomeIcon icon={faFacebook} /> 
-                <FontAwesomeIcon icon={faTwitter} />
-                <FontAwesomeIcon icon={faInstagram} />  
-                <FontAwesomeIcon icon={faLinkedin} /> 
+                <a href='/'><FontAwesomeIcon icon={faFacebook} className='social-icon'/></a>
+                <a href='/'><FontAwesomeIcon icon={faTwitter}  className='social-icon'/></a>
+                <a href='/'><FontAwesomeIcon icon={faInstagram} className='social-icon'/></a>  
+                <a href='/'><FontAwesomeIcon icon={faLinkedin} className='social-icon'/></a> 
             </div>
         </div>     
     </div>
