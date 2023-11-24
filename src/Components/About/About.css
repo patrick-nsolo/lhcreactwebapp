@@ -44,6 +44,14 @@
     background-size: cover;
     margin: 0;
 }
+.values{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    color:#fff;
+    text-align: center;
+}
 .collaboration{
     background-color: transparent;
     height:250px;

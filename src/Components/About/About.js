@@ -42,6 +42,30 @@ const About = () => {
                   and shared knowledge.
                 </p>
               </div>  
+              <div className='collaboration'>
+                <FontAwesomeIcon icon={faHandshake} className='collab-icon'/>
+                <h4>Collaboration</h4>
+                <p>
+                  We promote a culture of teamwork, open communication, 
+                  and shared knowledge.
+                </p>
+              </div>
+              <div className='collaboration'>
+                <FontAwesomeIcon icon={faHandshake} className='collab-icon'/>
+                <h4>Collaboration</h4>
+                <p>
+                  We promote a culture of teamwork, open communication, 
+                  and shared knowledge.
+                </p>
+              </div>
+              <div className='collaboration'>
+                <FontAwesomeIcon icon={faHandshake} className='collab-icon'/>
+                <h4>Collaboration</h4>
+                <p>
+                  We promote a culture of teamwork, open communication, 
+                  and shared knowledge.
+                </p>
+              </div>
             </div>
           </div>
         </div>
