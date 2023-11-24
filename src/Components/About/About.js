@@ -29,7 +29,7 @@ const About = () => {
           <Values/>
           <div className='about-hero'>
             <div className='about-image'>
-              <img src='../images/med-workers.webp' alt=''/>
+              <img src='../images/staff.webp.webp' alt=''/>
             </div>
             <div className='about-text'>
               <h2>Who We Are</h2>
