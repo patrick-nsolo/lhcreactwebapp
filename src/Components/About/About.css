@@ -1,3 +1,6 @@
+.hide{
+    overflow-x: hidden;
+}
 .about-hero{
     display: flex;
     justify-content: center;
@@ -23,6 +26,9 @@
     width:80%;
     animation: slideInLeft 2s ease-out;
 }
+.expertise-hero{
+    margin-top: 50px;
+}
 
 @media (max-width:768px){
     .about-hero{
@@ -38,5 +44,8 @@
     }
     .about-text p{
         width: 100%;
+    }
+    .expertise-image img{
+        height:250px;
     }
 }

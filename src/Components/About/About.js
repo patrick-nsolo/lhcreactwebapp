@@ -6,7 +6,7 @@ import Values from '../Values/Values';
 
 const About = () => {
   return (
-    <div>
+    <div className='hide'>
         <Nav/>  
         <hr/>
         <div className='about-container'>
@@ -17,28 +17,28 @@ const About = () => {
             <div className='about-text'>
               <h2>Who We Are</h2>
               <p>
-              Lofty HealthCare is a leading supplier of care and nursing staff to the 
-              private and public sectors. Our Agency has consistently outsourced professional,
-              trained, compliant and respectable staff to a myriad of the UK’s leading care 
-              groups where they provide outstanding care, encourage independence, safe-guard and 
-              respect service users. 
+              Lofty HealthCare stands as a premier provider of care and nursing personnel 
+              to both the private and public sectors. Our agency has consistently sourced 
+              and deployed skilled, compliant, and reputable staff to numerous distinguished 
+              care groups across the UK. Within these organizations, our personnel consistently 
+              deliver exceptional care, foster independence, safeguard, and demonstrate utmost 
+              respect for service users. 
               </p>
             </div>
           </div>
           <hr/>
           <Values/>
-          <div className='about-hero'>
-            <div className='about-image'>
-              <img src='../images/staff.webp.webp' alt=''/>
+          <hr/>
+          <div className='expertise-hero'>
+            <div className='expertise-image'>
+              <img src='../images/staff.webp' alt=''/>
             </div>
             <div className='about-text'>
-              <h2>Who We Are</h2>
+              <h2>Our Expertise</h2>
               <p>
-              Lofty HealthCare is a leading supplier of care and nursing staff to the 
-              private and public sectors. Our Agency has consistently outsourced professional,
-              trained, compliant and respectable staff to a myriad of the UK’s leading care 
-              groups where they provide outstanding care, encourage independence, safe-guard and 
-              respect service users. 
+              We possess a comprehensive comprehension of our client's business intricacies 
+              and requisites, enabling us to deliver services meticulously tailored to 
+              address these specific needs with the aim of surpassing their expectations. 
               </p>
             </div>
           </div>

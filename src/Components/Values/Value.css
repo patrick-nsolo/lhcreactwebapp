@@ -62,3 +62,12 @@
       transform: translateY(0);
     }
 }
+
+@media (max-width:768px){
+    .core-values{
+        height:1650px;
+    }
+    .values{
+        flex-direction: column;
+    }
+}
