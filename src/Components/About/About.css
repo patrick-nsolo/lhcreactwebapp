@@ -39,6 +39,16 @@
     height:450px;  
     z-index: 2000;
 }
+.expertise-text h2{
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #20a0d8;
+}
+.expertise-text p{
+    line-height: 25px;
+    font-size: 1.2rem;
+    width:80%;   
+}
 
 @media (max-width:768px){
     .about-hero{
@@ -60,5 +70,13 @@
     }
     .expertise-hero{
         flex-direction:column;
+        margin-top: 20px;
     }
+    .expertise-text{
+        width:350px; 
+    }
+    .expertise-text p{
+        width:100%;
+    }
+
 }

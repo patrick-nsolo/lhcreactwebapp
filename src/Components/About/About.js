@@ -33,7 +33,7 @@ const About = () => {
             <div className='expertise-image'>
               <img src='../images/staff.webp' alt=''/>
             </div>
-            <div className='about-text'>
+            <div className='expertise-text'>
               <h2>Our Expertise</h2>
               <p>
               We possess a comprehensive comprehension of our client's business intricacies 
@@ -42,19 +42,7 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className='commit-hero'>
-            <div className='commit-image'>
-              <img src='../images/staff.webp' alt=''/>
-            </div>
-            <div className='commit-text'>
-              <h2>Our Expertise</h2>
-              <p>
-              We possess a comprehensive comprehension of our client's business intricacies 
-              and requisites, enabling us to deliver services meticulously tailored to 
-              address these specific needs with the aim of surpassing their expectations. 
-              </p>
-            </div>
-          </div>
+          
         </div>
     </div>
   )
